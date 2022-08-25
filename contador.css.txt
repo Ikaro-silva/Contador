@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(230, 161, 161);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    text-align: center;
+    background: pink;
+    width: 250px;
+    margin: auto;
+    border-radius: 25px;
+    box-shadow:2px 2px 10px black;
+    color: #6e2855;
+
+}
+
+
+section{
+    box-sizing: border-box;
+    background: pink;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    border:#d365ad groove 6px;
+    box-shadow:5px 5px 20px black;
+    
+}
+select{
+    font:serif ;
+    color: #6e2855;
+    font-size:30px;
+}
+#caixa1{
+    background: #fface2;
+    margin:50px 20px ;
+    border-radius: 10px;
+    padding: 15px;
+    border:#d365ad groove 5px;
+    
+}
+#caixa2{
+    background: #fface2;
+    margin:auto ;
+    border-radius: 10px;
+    padding: 15px;
+    border:#d365ad groove 5px;
+
+}
+
+p{
+    color: #6e2855;
+}
+
+p::selection{
+    color:#242329;
+    background-color:#f6bfe2;
+}
+
+#inicio{
+    border:#d365ad groove 2px;
+    outline: 0;
+    background-color: #ffc3e9;
+
+}
+
+#fim{
+    border:#d365ad groove 2px;
+    outline: 0;
+    background-color: #ffc3e9;
+}
+
+#passo{
+    border:#d365ad groove 2px;
+    outline: 0;
+    background-color: #ffc3e9;
+}
+#contar{
+    color:#6e2855 ;
+    background: #eba6d2;
+    border:#d365ad groove 2px;
+    outline: 0;
+}
