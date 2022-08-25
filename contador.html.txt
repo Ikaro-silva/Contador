@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projero2.cv</title>
+    <link href="index.css" rel="stylesheet">
+    <script src="index.js"  defer></script>
+</head>
+<body>
+    <header>
+        <h1>O contador</h1>
+
+    </header>
+    <section>
+        <div id="caixa1">
+            <p>Inicio:
+                <input type="number" id="inicio" >
+            </p>
+            <p>
+                Fim:  
+                <input type="number" id="fim">
+            </p>
+            <p>
+                Passo:
+                <input type="number" id="passo">
+            </p>
+            <input type="button" value="contar" id="contar" onclick="contagem()">
+
+
+        </div>
+        <div id="caixa2">
+           <p>Preparando contagem</p>
+        </div>
+    </section>
+    <footer>
+
+    </footer>
+</body>
+</html>
